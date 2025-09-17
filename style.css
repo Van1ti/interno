@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.header_container {
+    max-width: 540px;
+    display: flex;
+    gap: 40px;
+}
+
+.header_container--links {
+    font-family: Jost;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: rgba(41, 47, 54, 1);
+}
+
+.header_container--links:hover {
+    color: rgba(205, 162, 116, 1);
+}
+
+.dream {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(./img/dream.interno.png);
+    background-repeat: no-repeat;
+    height: 831px;
+    margin-top: 18px;
+}
+
+.dream_box {
+    max-width: 600px;
+    max-height: 386px;
+    padding-top: 195px;
+    margin-left: 120px;
+}
+
+.dream_box--title {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    color: rgba(41, 47, 54, 1);
+    margin-bottom: 19px;
+}
+
+.dream_box--text {
+    font-family: Jost;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: rgba(77, 80, 83, 1);
+    margin-bottom: 35px;
+}
+
+.dream_box--btn {
+    width: 207px;
+    height: 71px;
+    font-family: Jost;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: rgba(255, 255, 255, 1);
+    padding: 22px 21px 22px 34px;
+    border-radius: 18px;
+    border: none;
+    box-shadow: none;
+    background-color: rgba(41, 47, 54, 1);
+    display: flex;
+    align-items: center;
+    gap: 21px;
+
+    dream_box--btn--p {
+        width: 106px;
+    }
+}
